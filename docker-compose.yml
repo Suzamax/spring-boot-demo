@@ -1,0 +1,25 @@
+version: "3.7"
+services:
+  backend:
+    build: .
+    ports:
+      - 8888:8888
+    networks:
+      - spring-postgres
+  db:
+    image: postgres
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./db/postgres.conf:/usr/local/etc/postgres/postgres.conf
+      - db-data:/var/lib/postgresql/data
+    command: "postgres -c config_file=/usr/local/etc/postgres/postgres.conf"
+    networks:
+      - spring-postgres
+    ports:
+      - 5432:5432
+volumes:
+  db-data:
+networks:
+  spring-postgres:

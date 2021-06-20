@@ -1,0 +1,19 @@
+#+TITLE:   Spring Boot demo project
+#+DATE:    June 20, 2021
+#+STARTUP: inlineimages
+
+* Table of Contents :TOC_3:noexport:
+- [[#description][Description]]
+- [[#how-to-use][How to use]]
+- [[#log][Log]]
+
+* Description
+  This project is a simple demo and bootstraping of future projects made with Spring Framework, in particular, Spring Boot.
+  I got inspired by [[https://github.com/NFKData/Spring-Boot-Seed][NFKData's Spring Boot Seed]] and decided to iterate through it and improving some features such as Docker usage.
+
+* How to use
+  You need Docker and =docker-compose= installed in your computer. Also, you should have an IDE or an editor capable such Sublime, VScode or Emacs.
+  Also, don't forget to import the database, you can do it with DBeaver, DataGrip, =psql=...
+
+* Log
+  + =20210620=: Initial commit.
