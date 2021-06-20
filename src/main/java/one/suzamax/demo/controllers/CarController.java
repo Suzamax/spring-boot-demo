@@ -59,6 +59,7 @@ public class CarController {
 	    .findById(carId)
 	    .orElseThrow(() -> new Exception("Car not found on :: " + carId));
 	carRepository.delete(car);
+	// TODO adding flag would be great instead of DELETING
 	Map<String, Boolean> response = new HashMap<>();
 	response.put("deleted", Boolean.TRUE);
 	return response;
