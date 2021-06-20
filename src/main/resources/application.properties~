@@ -1,6 +1,0 @@
-server.port=8888
-spring.application.name=Demo
-server.servlet.context-path=/api
-management.endpoints.web.path-mapping.health=/live
-management.endpoints.web.exposure.include=health, ready
-spring.datasource
