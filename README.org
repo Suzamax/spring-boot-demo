@@ -6,7 +6,7 @@
 - [[#description][Description]]
 - [[#how-to-use][How to use]]
 - [[#log][Log]]
-- [[#todo][TODO]]
+- [[#todos][TODOS]]
 
 * Description
   This project is a simple demo and bootstraping of future projects made with Spring Framework, in particular, Spring Boot.
@@ -24,7 +24,7 @@
 * Log
   + =20210620=: Initial commit. Creation of the API.
 
-* TODO
+* TODOs
 
   + Set flags before further actions on delete entries.
   + Create DTO entities.
