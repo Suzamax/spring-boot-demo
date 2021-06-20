@@ -18,7 +18,7 @@
    TODO :-/
   
 * How to use
-  You need Docker and =docker-compose= installed in your computer. Also, you should have an IDE or an editor capable such Sublime, VScode or Emacs.
+  You need Docker and =docker-compose= installed in your computer. Also, you should have an IDE or an editor capable such as Sublime, VScode or Emacs.
   Also, don't forget to import the database, you can do it with DBeaver, DataGrip, =psql=...
 
 * Log
@@ -30,7 +30,7 @@
   + Create DTO entities.
   + Create services.
   + Create integrity tests.
-  + Create Junit + Mockito unit tests.
+  + Create Junit + Mockito unit tests. (not PowerMock)
   + Create GitHub Actions.
   + Create k8s template.
   + Declare ports on Docker as environment variables.
