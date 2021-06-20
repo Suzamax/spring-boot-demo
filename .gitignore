@@ -35,3 +35,7 @@ build/
 ### ENVVARS ###
 .env.*
 .env
+
+# EMACS PLS
+
+*~
