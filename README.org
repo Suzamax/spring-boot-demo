@@ -29,6 +29,7 @@
   + Set flags before further actions on delete entries.
   + Create DTO entities.
   + Create services.
+  + Create integrity tests.
   + Create Junit + Mockito unit tests.
   + Create GitHub Actions.
   + Create k8s template.
